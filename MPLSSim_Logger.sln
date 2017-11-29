@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MPLSSim_Logger", "MPLSSim_Logger\MPLSSim_Logger.csproj", "{BA1B0B0E-062A-430F-9D1F-3706FC2310EE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExampleLogger", "ExampleLogger\ExampleLogger.csproj", "{14F1BE34-6E40-4F90-94A2-DC14C7A79C61}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingLib", "LoggingLib\LoggingLib.csproj", "{0BC94A2E-FADF-451E-9900-78B4B8B79361}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LoggingServer", "LoggingServer\LoggingServer.csproj", "{BA1B0B0E-062A-430F-9D1F-3706FC2310EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,6 +15,14 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{14F1BE34-6E40-4F90-94A2-DC14C7A79C61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{14F1BE34-6E40-4F90-94A2-DC14C7A79C61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{14F1BE34-6E40-4F90-94A2-DC14C7A79C61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{14F1BE34-6E40-4F90-94A2-DC14C7A79C61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BC94A2E-FADF-451E-9900-78B4B8B79361}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BC94A2E-FADF-451E-9900-78B4B8B79361}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BC94A2E-FADF-451E-9900-78B4B8B79361}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BC94A2E-FADF-451E-9900-78B4B8B79361}.Release|Any CPU.Build.0 = Release|Any CPU
 		{BA1B0B0E-062A-430F-9D1F-3706FC2310EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{BA1B0B0E-062A-430F-9D1F-3706FC2310EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BA1B0B0E-062A-430F-9D1F-3706FC2310EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
